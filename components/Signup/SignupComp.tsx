@@ -1,27 +1,36 @@
 import Link from "next/link";
-import { FaFacebookF } from "react-icons/fa";
-import { FaGoogle } from "react-icons/fa";
+import { FaFacebookF, FaGoogle } from "react-icons/fa";
 
-const LoginComp = () => {
+const SignupComp = () => {
   return (
     <main className="p-8">
       <div className="flex justify-end">
         <Link
-          href="/auth/signup"
+          href="/auth/login"
           className="uppercase text-[#1CB0F6] font-bold text-[16px] p-4 px-6 rounded-2xl border-2 border-[#AFAFAF] hover:bg-[#E5E5E5] duration-300"
         >
-          Sign up
+          Log in
         </Link>
       </div>
       <section>
         <div className="flex flex-col items-center p-6">
           <form className="w-[380px] flex flex-col gap-4">
             <h1 className="text-[26px] font-extrabold mt-2 mb-4 text-center text-[#333333]">
-              Log in
+              Create your profile
             </h1>
             <input
+              type="number"
+              placeholder="Age"
+              className="p-2 px-4 w-full text-[22px] rounded-md placeholder:text-[#4B4B4B] outline-none focus:ring-2 focus:ring-inset focus:ring-[#1CB0F6] focus:border-[#1CB0F6]"
+            />
+            <input
               type="text"
-              placeholder="Email or username"
+              placeholder="Name (optional)"
+              className="p-2 px-4 w-full text-[22px] rounded-md placeholder:text-[#4B4B4B] outline-none focus:ring-2 focus:ring-inset focus:ring-[#1CB0F6] focus:border-[#1CB0F6]"
+            />
+            <input
+              type="email"
+              placeholder="Email"
               className="p-2 px-4 w-full text-[22px] rounded-md placeholder:text-[#4B4B4B] outline-none focus:ring-2 focus:ring-inset focus:ring-[#1CB0F6] focus:border-[#1CB0F6]"
             />
             <input
@@ -30,7 +39,7 @@ const LoginComp = () => {
               className="p-2 px-4 w-full text-[22px] rounded-md placeholder:text-[#4B4B4B] outline-none focus:ring-2 focus:ring-inset focus:ring-[#1CB0F6] focus:border-[#1CB0F6]"
             />
             <button className="bg-[#1CB0F6] hover:bg-[#77ccf3] duration-300 text-white p-2 py-3 rounded-xl items-center text-center uppercase font-bold tracking-widest w-full">
-              log in
+              Create acount
             </button>
             <div className="text-[#AFAFAF]">
               <h2 className="flex flex-row flex-nowrap items-center">
@@ -65,4 +74,4 @@ const LoginComp = () => {
   );
 };
 
-export default LoginComp;
+export default SignupComp;

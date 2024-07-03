@@ -15,7 +15,7 @@ const LandingContent = () => {
               The free, fun, and effective way to learn a finances!
             </h1>
             <Link
-              href="/auth"
+              href="/auth/login"
               className="bg-[#1CB0F6] hover:bg-[#77ccf3] duration-300 text-white p-2 py-3 rounded-xl w-[330px] items-center text-center uppercase font-bold tracking-widest shadow-[0_6px_0] shadow-[#378CE7]"
             >
               Get Started
