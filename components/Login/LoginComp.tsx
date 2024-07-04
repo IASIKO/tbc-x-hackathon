@@ -23,7 +23,7 @@ const LoginComp = () => {
     e.preventDefault();
     try {
       await loginAction(userInfo);
-      // router.push("/dashboard/learn");
+      router.push("/dashboard/learn");
     } catch (error) {
       console.log(error);
       

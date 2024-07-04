@@ -31,6 +31,7 @@ export async function loginAction(userInfo: UserLoginInfo) {
         "Content-Type": "application/json",
       },
       body: JSON.stringify(userInfo),
+      cache: "no-store",
     });
 
     if (!response.ok) {

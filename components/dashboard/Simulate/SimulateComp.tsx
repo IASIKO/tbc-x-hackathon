@@ -3,7 +3,7 @@ import cardImage from "../../../public/assets/images/card-image.png";
 
 const SimulateComp = () => {
   return (
-    <main className="p-8 pt-16">
+    <main className="p-8 pt-0">
       <section>
         <div className="flex flex-col items-center p-6 text-center">
           <h1 className="text-[40px] font-bold">Try Simulations</h1>
