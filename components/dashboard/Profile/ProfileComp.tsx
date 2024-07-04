@@ -4,7 +4,7 @@ import marketplaceIcon from "../../../public/assets/icons/marketplaceIcon.svg";
 
 const ProfileComp = () => {
   return (
-    <main className="p-8">
+    <main className="p-8 mb-28 xl:mb-0">
       <section>
         <div className="flex flex-col xl:w-[600px] w-[300] m-auto gap-4">
           <Image

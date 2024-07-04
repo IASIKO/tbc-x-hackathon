@@ -105,7 +105,7 @@ const marketData = [
 
 const MarketplaceComp = () => {
   return (
-    <main className="p-8 pt-0">
+    <main className="p-8 pt-0 mb-28 xl:mb-0">
       <section>
         <div className="flex flex-col items-center p-6 text-center">
           <h1 className="text-[40px] font-bold">Marketplace</h1>
