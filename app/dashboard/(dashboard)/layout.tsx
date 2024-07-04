@@ -1,4 +1,4 @@
-import SideBar from "@/components/Layout/SideBar";
+import SideBar from "@/components/dashboard/Layout/SideBar";
 
 export default async function DashboardLayout({
   children,
@@ -8,7 +8,7 @@ export default async function DashboardLayout({
   return (
     <>
       <SideBar />
-      <main className="ml-[300px]">{children}</main>
+      <main className=" ml-[100px] xl:ml-[300px]">{children}</main>
     </>
   );
 }

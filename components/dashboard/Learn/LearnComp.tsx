@@ -1,5 +1,5 @@
 import Image from "next/image";
-import cardImage from "../../public/assets/images/card-image.png";
+import cardImage from "../../../public/assets/images/card-image.png";
 
 const LearnComp = () => {
   return (
@@ -13,10 +13,10 @@ const LearnComp = () => {
             <Image
               src={cardImage}
               alt="card image"
-              className="w-[200px] h-[200px] object-cover rounded-t-lg"
+              className="w-[200px] h-[200px] object-cover rounded-lg"
               priority
             />
-            <h2 className="p-2 text-[24px] font-bold">Basics</h2>
+            <h2 className="p-2 text-[24px] font-bold text-center">Financing Basics</h2>
           </div>
           <div className="p-4 flex flex-col justify-between items-center w-full bg-white dark:bg-gray hover:shadow-lg transition-transform transform sm:hover:scale-105 cursor-pointer xl:mt-[150px]">
             <Image
@@ -25,25 +25,25 @@ const LearnComp = () => {
               className="w-[200px] h-[200px] object-cover rounded-lg"
               priority
             />
-            <h2 className="p-2 text-[24px] font-bold">Basics</h2>
+            <h2 className="p-2 text-[24px] font-bold text-center">Cryptography Basics</h2>
           </div>
           <div className="p-4 flex flex-col justify-between items-center w-full bg-white dark:bg-gray hover:shadow-lg transition-transform transform sm:hover:scale-105 cursor-pointer xl:mt-[150px]">
             <Image
               src={cardImage}
               alt="card image"
-              className="w-[200px] h-[200px] object-cover rounded-t-lg"
+              className="w-[200px] h-[200px] object-cover rounded-lg"
               priority
             />
-            <h2 className="p-2 text-[24px] font-bold">Basics</h2>
+            <h2 className="p-2 text-[24px] font-bold text-center">NFT Basics</h2>
           </div>
           <div className="p-4 flex flex-col justify-between items-center w-full bg-white dark:bg-gray hover:shadow-lg transition-transform transform sm:hover:scale-105 cursor-pointer xl:mt-[150px]">
             <Image
               src={cardImage}
               alt="card image"
-              className="w-[200px] h-[200px] object-cover rounded-t-lg"
+              className="w-[200px] h-[200px] object-cover rounded-lg"
               priority
             />
-            <h2 className="p-2 text-[24px] font-bold">Basics</h2>
+            <h2 className="p-2 text-[24px] font-bold text-center">Financing Basics</h2>
           </div>
         </div>
       </section>
