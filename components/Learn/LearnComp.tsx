@@ -22,7 +22,7 @@ const LearnComp = () => {
             <Image
               src={cardImage}
               alt="card image"
-              className="w-[200px] h-[200px] object-cover rounded-t-lg"
+              className="w-[200px] h-[200px] object-cover rounded-lg"
               priority
             />
             <h2 className="p-2 text-[24px] font-bold">Basics</h2>

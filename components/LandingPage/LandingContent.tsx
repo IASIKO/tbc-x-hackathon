@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import landingImage from '../../public/assets/images/landing-image.jpg'
+import landingImage from '../../public/assets/images/landing-image1.jpg'
 
 const LandingContent = () => {
   return (
