@@ -8,7 +8,7 @@ export default async function DashboardLayout({
   return (
     <>
       <SideBar />
-      <main className=" ml-[100px] xl:ml-[300px]">{children}</main>
+      <main className="xl:ml-[300px]">{children}</main>
     </>
   );
 }
