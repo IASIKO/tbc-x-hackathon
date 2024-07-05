@@ -9,7 +9,6 @@ interface ModuleRoad {
 
 export default async function ModuleRoad({ params: { id } }: ModuleRoad) {
   const chapters = await getChaptersById(id);
-  console.log("🚀 ~ ModuleRoad ~ chapters:", chapters)
 
   return <ModuleRoadComp chapters={chapters.chapters} title={chapters.name} />;
 }
