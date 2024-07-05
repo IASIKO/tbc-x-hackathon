@@ -50,7 +50,7 @@ export async function loginAction(userInfo: UserLoginInfo) {
   }
 }
 
-export async function logoutAction(userInfo: UserLoginInfo) {
+export async function logoutAction() {
   cookies().delete("token");
 }
 

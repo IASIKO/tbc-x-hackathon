@@ -1,8 +1,8 @@
 "use client";
 
+import { ModuleData } from "@/types/module-types";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-import { ModuleData } from "@/types/module-types";
 
 const LearnComp = ({ moduleData }: { moduleData: ModuleData[] }) => {
   const router = useRouter();
