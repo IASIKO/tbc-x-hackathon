@@ -1,4 +1,5 @@
 import ModuleRoadComp from "@/components/dashboard/Learn/ModuleRoadComp";
+import { getChaptersById } from "@/lib/actions";
 
 interface ModuleRoad {
   params: {
@@ -6,6 +7,9 @@ interface ModuleRoad {
   };
 }
 
-export default function ModuleRoad({ params: { id } }: ModuleRoad) {
-  return <ModuleRoadComp />;
+export default async function ModuleRoad({ params: { id } }: ModuleRoad) {
+  const chapters = await getChaptersById(id);
+  console.log("🚀 ~ ModuleRoad ~ chapters:", chapters)
+
+  return <ModuleRoadComp chapters={chapters.chapters} title={chapters.name} />;
 }
